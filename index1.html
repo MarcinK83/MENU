@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu z Flexbox</title>
+    <style>
+        header {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header div {
+            border: 2px solid #333;
+            padding: 10px 20px;
+            font-size: 18px;
+            color: #333;
+            transition: color 0.3s, border-color 0.3s;
+        }
+
+        header div:hover {
+            color: #007bff;
+            border-color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>Start</div>
+        <div>Projekty</div>
+        <div>Kontakt</div>
+    </header>
+</body>
+</html>
